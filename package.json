@@ -268,12 +268,12 @@
 	"dependencies": {
 		"mime": "4.0.6",
 		"url": "0.11.4",
-		"ws": "8.18.0"
+		"ws": "8.18.1"
 	},
 	"devDependencies": {
 		"@types/mime": "4.0.0",
-		"@types/node": "22.13.4",
-		"@types/sinon": "17.0.3",
+		"@types/node": "22.13.9",
+		"@types/sinon": "17.0.4",
 		"@types/ws": "8.5.14",
 		"esbuild": "0.25.0",
 		"sinon": "19.0.2",
