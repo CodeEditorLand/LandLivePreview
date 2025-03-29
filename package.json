@@ -272,11 +272,11 @@
 	},
 	"devDependencies": {
 		"@types/mime": "4.0.0",
-		"@types/node": "22.13.10",
+		"@types/node": "22.13.14",
 		"@types/sinon": "17.0.4",
 		"@types/ws": "8.18.0",
 		"esbuild": "0.25.1",
-		"sinon": "19.0.4",
+		"sinon": "20.0.0",
 		"ts-loader": "9.5.2"
 	},
 	"icon": "icon.png",
