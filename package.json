@@ -1,12 +1,35 @@
 {
 	"name": "live-server",
 	"displayName": "Live Preview",
+	"version": "0.0.1",
+	"private": false,
 	"description": "Hosts a local server in your workspace for you to preview your webpages on.",
+	"keywords": [
+		"codeeditorland",
+		"land",
+		"playform"
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandLivePreview#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandLivePreview/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandLivePreview.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Source 🖋️ Open 👐🏻",
+		"email": "Source/Open@Editor.Land",
+		"url": "HTTPS://Editor.Land"
+	},
+	"type": "module",
 	"main": "./out/extension.js",
 	"scripts": {
 		"build-preview": "npx webpack-cli --mode development",
 		"compile": "node build/tools/codicon_copy.js && tsc -p ./",
 		"patch-prerelease": "node ./scripts/applyPatchForPrerelease.js",
+		"prepublishOnly": "Build 'Source/**/*.ts'",
 		"validate-stable": "node ./scripts/validateStable.js",
 		"webpack": "webpack --mode development",
 		"webpack-dev": "webpack --mode development --watch"
@@ -271,6 +294,7 @@
 		"ws": "8.18.1"
 	},
 	"devDependencies": {
+		"@playform/build": "0.2.1",
 		"@types/mime": "4.0.0",
 		"@types/node": "22.13.14",
 		"@types/sinon": "17.0.4",
@@ -278,6 +302,9 @@
 		"esbuild": "0.25.1",
 		"sinon": "20.0.0",
 		"ts-loader": "9.5.2"
+	},
+	"publishConfig": {
+		"access": "public"
 	},
 	"icon": "icon.png",
 	"preview": true,
