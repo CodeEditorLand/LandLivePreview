@@ -296,7 +296,7 @@
 	"devDependencies": {
 		"@playform/build": "0.2.3",
 		"@types/mime": "4.0.0",
-		"@types/node": "22.14.1",
+		"@types/node": "22.15.2",
 		"@types/sinon": "17.0.4",
 		"@types/ws": "8.18.1",
 		"esbuild": "0.25.3",
