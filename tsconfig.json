@@ -1,26 +1,13 @@
 {
 	"compilerOptions": {
-		"baseUrl": "./",
-		"esModuleInterop": true,
-		"lib": [
-			"ES2019"
-		],
 		"module": "commonjs",
-		"outDir": "Target",
-		"rootDir": "src",
+		"target": "es2019",
+		"lib": ["ES2019"],
+		"outDir": "out",
 		"sourceMap": true,
+		"rootDir": "src",
 		"strict": true,
-		"target": "es2019"
+		"esModuleInterop": true,
 	},
-	"exclude": [
-		"node_modules",
-		".vscode-test"
-	],
-	"extends": "@playform/build/tsconfig",
-	"include": [
-		"src",
-		"src",
-		"src",
-		"src"
-	]
+	"exclude": ["node_modules", ".vscode-test"]
 }
